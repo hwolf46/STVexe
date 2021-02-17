@@ -3,7 +3,7 @@ The application reads binary fetal cardiotocography (CTG) files and calculates f
 
 There are two versions, one is a python source code file (A, in repository STVcalc) and the other version is a compiled executable (B, in repository STVexe). Both versions are packed in a 7zip file.
 
-A: The python source file is in the repository STVcalc. For installation follow the instructions there.
+A: The python source file is in the repository STVcalc. For installation follow the instructions there. NOTE: this is version 1.7, whit a modification of epoch and STV calculation by median instead of mean.
 
 B: This repository STVexe contains five 7zip files with the executable program. Click on the green button [Clone or Download], select the tab [Download]. The complete folder with all files will then be downloaded to a zip file "STVexe-master.zip". Unpack this zip file to an empty folder. Then make a new sub-folder STVcalculationSingle. Unpack the four 7zip files (STVexeFiles_A.7z, STVexeFiles_B.7z, STVexeFiles_C.7z and STVexeFiles_D.7z) into this folder. Click STVcalculationSingle.exe or STVcalculationSingle.bat to start the program. If you like to start from the base folder then copy STVcalculationSingle.bat to there.
 
